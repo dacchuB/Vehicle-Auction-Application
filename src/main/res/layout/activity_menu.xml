@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MenuActivity">
+
+    <ImageButton
+        android:id="@+id/sellerButton"
+        android:layout_width="200dp"
+        android:layout_height="193dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/lavender_border"
+        android:contentDescription="Sell Page"
+        android:src="@drawable/sell" />
+
+    <ImageButton
+        android:id="@+id/buyerButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/lavender_border"
+        android:contentDescription="Buy Page"
+        android:src="@drawable/buy"/>
+
+    <ImageButton
+        android:id="@+id/transferButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/lavender_border"
+        android:contentDescription="History"
+        android:src="@drawable/transfer" />
+
+</LinearLayout>
